@@ -1,14 +1,6 @@
 
 from Vehicles.vehicles import Car
 
-def sumOfTwo(a,b):
-    return a+b
-
-def sum_array(arr):
-    return sum(arr)
-
-
-
 def main():
     my_Car = Car("Toyota")
     my_Car.get_brand()
